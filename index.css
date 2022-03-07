@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(28, 28, 73);
+}
+#navbar {
+    overflow: hidden;
+    display: flex;
+  }
+  #navbar h2 {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  .content {
+    padding: 16px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+#left{
+    width: 20%;
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+#left h2{
+    padding: 5px 5px;
+}
+#center{
+    width: 50%;
+    display: flex;
+    text-align: center; 
+    text-align: justify;
+    margin-top: 17px;
+}
+#center input{
+    width: 90%;
+    height: 30px;
+    background-color:rgb(117, 115, 115);
+}
+#center i{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 10px;
+    color: white;
+}
+#right{
+    width: 25%;
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+#right h2{
+    padding: 5px 5px;
+}
+#bg{
+    background-color: rgb(74, 212, 74);
+}
+.text{
+    width: 45%;
+    margin: auto;
+    color: rgb(235, 225, 207);
+}
+.tag{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.tagText{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.tagDiv{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(9,1fr);
+}
+.tagDiv > div{
+    height: 150px;
+    border: 1px solid rgb(102, 101, 101);
+}
+
+#main{
+    width: 90%;
+    margin: 30px auto;
+}
+#addImage{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 23% 23% 23% 23%;
+}
+#addImage div{
+    border: 1px solid white;
+}
+#addImage p{
+    margin-left: 20px;
+    color: white;
+}
+
+
+#container{
+    width: 90%;
+    margin: auto;
+}
+.heading{
+    width: 250px;
+    margin: auto;
+    color: #FFF176;
+    padding: 20px 0;
+}
+.posts{
+    width: 90%;
+    height: fit-content;
+    padding: 15px 0;
+    margin: 10px auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.post-id{
+    font-size: 18px;
+    padding: 5px 12px;
+    background-color: #B2DFDB;
+    display: inline-block;
+}
+.title{
+    font-size: 20px;
+}
+.post-info{
+    font-size: 18px;
+    margin: auto 20px;
+}
